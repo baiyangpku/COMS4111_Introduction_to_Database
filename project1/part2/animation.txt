@@ -1,0 +1,11 @@
+P1,Naruto,Japanese,22,671,2007-02-15,Pierrot,1
+IG1,Haikyu!!,Japanese,2,45,2016-04-06,Production I.G,2
+K1,AmagiBrilliantPark,Japanese,1,13,2014-10-06,KyotoAnimation,3
+IG2,Kuroko's Basketball,Japanese,3,75,2012-04-07,Production I.G,4
+S1,Code Geass,Japanese,1,25,2006-10-05,Sunrise,5
+B1,Space Dandy,Japanese,1,26,2014-01-04,Bones,6
+U1,Ultimate Avenger,English,2,2,2006-02-21,Marvel Comics,10
+DN1,Death Note,Japanese,1,37,2006-10-03,D.N. Dream Partners,9
+NK1,Neon Genesis Evangelion,Japanese,1,26,1995-10-04,Tatsunoko Production,8
+S2,Inuyasha,Japanese,1,167,2000-10-16,Sunrise,7
+B2,My Life as McDull,Cantonese,1,1,2001-12-15,Bliss Picture Ltd.,11

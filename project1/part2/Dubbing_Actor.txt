@@ -1,0 +1,12 @@
+Junko Takeuchi,Japanese,4/5/72,44,F
+Ayumu Murase,Japanese,12/14/88,28,M
+Koki Uchiyama,Japanese,8/16/90,26,M
+Junichi Suwabe,Japanese,3/29/72,44,M
+Takashi Ohara,Japanese,4/9/78,38,M
+Jun Fukuyama,Japanese,11/26/78,38,M
+Sayaka Ohara,Japanese,12/6/75,41,F
+Marc Worden,Canadian,6/5/76,39,M
+Mamoru Miyano,Japanese,6/8/83,32,M
+Hayashibara  Megumi,Japanese,3/30/67,48,F
+Jan Lamb,Chinese,1/8/67,48,M
+Satsuki Yukino,Japanese,5/25/70,46,F

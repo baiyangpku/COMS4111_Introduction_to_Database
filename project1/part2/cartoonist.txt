@@ -1,0 +1,11 @@
+	1,Masashi Kishimoto,1974-11-08,M,He is a Japanese manga artist and well known for creating the manga series Naruto which was in serialization from 1999 to 2014
+	2,Haruichi Furudate,1983-03-07,M,He is a Japanese manga artist best known for creating the shōnen manga series Haikyu!!
+	3,Shoji Gatoh,1971-06-11,M,He is a Japanese author from Shiga Prefecture and is best known for the creation of the Full Metal Panic! series that included light novels manga and anime
+	4,Tadatoshi Fujimaki,1982-06-09,M,He is a Japanese manga artist most known for his manga Kuroko's Basketball which is serialized in Weekly Shonen Jump
+	5,Ichiro Okouchi,1968-03-28,M,He composed the story and script of the Sunrise original production
+	6,Park Sung-Woo,1972-07-07,M,He is a South Korean manhwa artist
+	10,Mark Millar,12/24/69,M, MBE is a Scottish comic book writer known for his work on titles such as The Authority/The Ultimates/ Marvel Knights Spider-Man/ Ultimate Fantastic Four and Civil War
+	9,Takeshi Obata,2/11/69,M,Japanese manga artist that usually works as the illustrator. He first gained international attention for Hikaru no Go with Yumi Hotta; but is better known for Death Note and Bakuman
+	8,Yoshiyuki Sadamoto,1/29/62,M,Japanese character designer/ manga artist and one of the founding members of the Gainax anime studio.
+	7,Rumiko Takahashi,10/10/57,F,Takahashi is one of Japan's most affluent manga artists. Her works are popular worldwide and have been translated into a variety of languages
+	11,Brian Tse,12/6/85,M,Brian Tse is the author of the Hong Kong children comic McMug and McDull series.
