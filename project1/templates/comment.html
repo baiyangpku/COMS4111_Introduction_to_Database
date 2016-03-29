@@ -1,0 +1,41 @@
+<html>
+<img src="http://i0.hdslb.com/headers/a4b4353cf95aeb8788c3d98c01e055d3.png" >
+<br>
+<br>
+<center>
+<div>
+<form method="POST" action="/comment">
+<p><h3>Add your comment! </h3></p>
+<br>
+<br>
+<p>animation name: <input type="text" name="aniName"></p>
+<p>content: <input type="text" name="content"></p>
+<p><input type="submit" value="Add"></p>
+</form>
+<p>current user: {{cur_usr}}(guest cannot comment)<p>
+
+<br>
+<br>
+<div>
+  {% if error %}
+    <p class="error"> <strong>error info:</strong> 
+    <p>{{ error }}</p>
+  {% endif %}
+</div>
+
+<br>
+
+<h4>valid aniamtion names:</h4>
+  <div>
+    {% for ani in animation %}
+    <div>{{ani}}</div>
+    {% endfor %}
+  </div>
+ <br>
+ 
+<br>
+<br>
+<p><h3><a href="/front">Go back to front page</a><h3></p>
+</div>
+<center>
+</html>

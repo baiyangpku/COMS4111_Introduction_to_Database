@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block title %}
+Search By Company
+{% endblock %}
+
+{% block content %}
+    {% for comp in comp_names %}
+    <h4><div>{{comp}}</div></h4>
+    {% endfor %}
+ <form method ="POST" action="/compsearch">
+<p>See the details of an company, type the name of company here:</p>
+<p> <input type="text" name="comp_name"> <input type="submit" value="query"></p>
+</form>
+
+<br>
+<div>
+  {% if error %}
+    <p class="error"> <strong>error info:</strong> 
+    <p>{{ error }}</p>
+  {% endif %}
+</div>
+
+<br>
+{% endblock %}

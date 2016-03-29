@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block title %}
+Search By Comic Name
+{% endblock %}
+
+{% block content %}
+<center>
+    {% for com in comi %}
+    <h4><div>{{com}}</div></h4>
+    {% endfor %}
+
+<form method ="POST" action="/comisearch"> 
+<p>See the details of a comic, type the name of comic here:</p>
+<p> <input type="text" name="comic_name"> <input type="submit" value="query"></p>
+</form>
+{% if error %}
+<p class="error"><strong>Error:</strong> {{ error }}
+{% endif %}
+</center>
+{% endblock %}

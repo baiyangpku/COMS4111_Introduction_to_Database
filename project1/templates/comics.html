@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block title %}
+{{comNam}}
+{% endblock %}
+
+{% block content %}
+<center>
+<h3>Comic you are looking for..</h3>
+<table>
+  <tr>
+    <th>Comic Name</th>
+    <th>Relevant Animation</th>
+  </tr>
+  <tr>
+    <td>{{comNam}}</td>
+    <td>{{aniName}}</td>
+  </tr>
+  <tr>
+  <td>
+    Comic Description
+  </td>
+  <td>
+    {{comDesc}}
+  </tr>
+</table>
+
+<br>
+<br>
+<img src = "http://essenceofindiatours.com.au/wp-content/uploads/2015/11/Website-Divider-1-1500x299.png" height="15%" width="100%" alt = "">
+<br>
+<br>
+
+<table>
+  <tr>
+   <th>Cartoonist</th>
+   <th>Gender</th>
+   <th>Cartoonist Birthday</th>
+  </tr>
+  
+  <tr>
+    <td>{{carNam}}</td>
+    <td>{{carSex}}</td>
+    <td>{{carBir}}</td>
+  </tr>
+  
+  <tr>
+    <td colspan="1">Cartoonist Description</td>
+    <td colspan="3">{{carDesc}}</td>
+  </tr>
+</table>
+
+<br>
+<br>
+ <img src = "http://essenceofindiatours.com.au/wp-content/uploads/2015/11/Website-Divider-1-1500x299.png" height="15%" width="100%" alt= "">
+<br>
+<br>
+
+<table>
+  <tr>
+   <th>Magazine Name</th>
+   <th>Magazine Language</th>
+  </tr>
+  
+  <tr>
+    <td>{{magNam}}</td>
+    <td>{{magLang}}</td>
+  </tr>
+  
+  <tr>
+    <td colspan="1">Magazine Description</td>
+    <td colspan="3">
+    {{magDesc}}
+  </tr>
+</table>
+<br>
+<br>
+<p><h3><a href="/front">Go back to front page</a><h3></p>
+<center>
+{% endblock %}

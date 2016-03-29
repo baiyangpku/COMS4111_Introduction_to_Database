@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block title %}
+Company you are looking for...
+{% endblock %}
+
+{% block content %}
+<h3> Detailed info of{{compName}}</h3>
+<table>
+  <tr>
+    <th colspan ="3">Company Website</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td colspan ="3">{{compWeb}}</td>
+    <td>{{compCou}}</td>
+  </tr>
+  <tr>
+    <th colspan ="4">Company Description</th>
+  </tr>
+  <tr>
+    <td colspan ="4">{{compDesc}}</td>
+  </tr>
+  <tr>
+    <th colspan ="4">Productions</th>
+  </tr>
+  <tr>
+  {% for ani in compAni %}
+  <tr>
+  <td colspan ="4"> - {{ani}}</td>
+  </tr>
+  {% endfor %}
+  </tr>
+  
+</table>
+
+<!-- <p>Total seasons: <div>{{aniSeason}}</div></p>
+<p>Total episodes: <div>{{aniEpi}}</div></p>
+<p>Production Company: <div>{{aniComp}}</div></p>
+<p>Comic id: <div>{{cid}}</div></p> -->
+
+{% endblock %}

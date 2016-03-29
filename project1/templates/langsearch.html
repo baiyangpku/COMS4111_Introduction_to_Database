@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block title %}
+Browse By Language
+{% endblock %}
+
+{% block content %}
+<table>
+    <th>Available Languages</th>
+    {% for lang in ani_lang %}
+    <tr>
+    <td>{{lang}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<form method ="POST" action="/langsearch">
+<p>See the details of animation of this language, input language here:</p>
+<p> <input type="text" name="langsearch"> <input type="submit" value="query"></p>
+</form>
+
+<br>
+<div>
+  {% if error %}
+    <p class="error"> <strong>error info:</strong> 
+    <p>{{ error }}</p>
+  {% endif %}
+</div>
+
+<br>
+{% endblock %}

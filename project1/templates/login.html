@@ -1,0 +1,29 @@
+<html>
+<center>
+   <img src="http://i0.hdslb.com/headers/a4b4353cf95aeb8788c3d98c01e055d3.png" >
+  <br>
+  <br>
+  <h2>Login Page</h2>
+  <br>
+  <br>
+  <div>
+  <form action="/login" method="POST">
+    <dl>
+      <dt>Username:
+      <dd><input type=text name=username>
+      <dt>Password:
+      <dd><input type=password name=password>
+      <dd><input type=submit value=Login>
+    </dl>
+  </form>
+  <br>
+  <br>
+  <h3><a href="/front">visit page as guest</a></h3>
+  {% if error %}
+    <p class="error"> <strong>error info:</strong> 
+    <p>{{ error }}</p>
+  {% endif %}
+  </div>
+  example: username Jax, password 8888888
+  <center>
+</html>

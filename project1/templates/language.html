@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block title %}
+Animations in {{langNam}}
+{% endblock %}
+
+{% block content %}
+<h3>We have the following animations in {{langNam}} !</h3>
+
+<table>
+<th>Animations In {{langNam}}</th>
+{% for ani in aniName %}
+<tr>
+<td>{{ani}}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
